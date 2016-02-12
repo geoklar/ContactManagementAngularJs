@@ -1,0 +1,155 @@
+html,
+body {
+    background-color: #D5DBD8;
+    width: 100%;
+    height: 100%;
+    color: #4F534E;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+.btn, .btn:focus {
+    outline: none !important;
+}
+
+.btn-link {
+    color: #373A36;
+    font-size: 18px;
+    text-decoration: none !important;
+}
+
+    .btn-link:hover {
+        color: #5bc0de;
+    }
+
+.main {
+    padding-top: 20px;
+}
+
+    .main a {
+        font-size: 14px;
+    }
+
+    .main .active span,
+    .main .active > a {
+        color: #5bc0de;
+    }
+
+    .main h4 {
+        padding-top: 15px;
+    }
+
+.editing > button {
+    color: #5bc0de !important;
+}
+
+.editing > a {
+    color: #5bc0de !important;
+}
+
+.navbar {
+    background-color: #333;
+    border: 0;
+}
+
+.bs-example {
+    margin: 20px;
+}
+
+    .bs-example .navbar-header a {
+        color: #fff;
+        padding-top: 10px;
+    }
+
+        .bs-example .navbar-header a:hover {
+            color: #5bc0de;
+        }
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+    .navbar-default .navbar-nav > li > a:hover {
+        color: #5bc0de;
+    }
+
+.navbar-nav.navbar-right li:first-child {
+    padding-top: 6px;
+    margin-left: 15px;
+}
+
+.navbar-nav.navbar-right li {
+    color: #fff;
+    padding-right: 15px;
+    margin: 8px 0 0 0;
+}
+
+.fInput {
+    margin-left: 15px;
+    width: 95%;
+}
+
+.smBtn {
+    float: right;
+    margin-left: 10px;
+}
+
+.edit-form {
+    padding: 20px;
+    height: 200px;
+    margin-top: 25px;
+}
+
+.form-group {
+    padding: 0 10px;
+}
+
+.contactBoxes {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #eee;
+}
+
+.form-group span:after {
+    content: " *";
+    color: red;
+}
+/* Error display */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#modal {
+    position: absolute;
+    background: url(tint20.png) 0 0 repeat;
+    background: rgba(0,0,0,0.2);
+    border-radius: 14px;
+    padding: 8px;
+}
+
+#content {
+    border-radius: 8px;
+    background: #fff;
+    padding: 20px;
+}
+
+#close {
+    position: absolute;
+    background: url(../img/close.png) 0 0 no-repeat;
+    width: 24px;
+    height: 27px;
+    display: block;
+    text-indent: -9999px;
+    top: -7px;
+    right: -7px;
+}
